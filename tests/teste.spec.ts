@@ -8,6 +8,6 @@ describe("Teste inicial genérico", () => {
   });
 
   it('verifica se o primeiro elemento é "Teste2"', () => {
-    expect(stringTeste[1]).toBe("Teste1");
+    expect(stringTeste[1]).toBe("Teste2");
   });
 });
