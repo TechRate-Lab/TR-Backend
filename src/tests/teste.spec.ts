@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 
+
 describe("Teste inicial genérico", () => {
   const stringTeste = ["Teste1", "Teste2"];
 
