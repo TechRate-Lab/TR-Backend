@@ -8,12 +8,12 @@
     "start": "node dist/server.js",
     "dev": "tsnd --transpile-only --watch --respawn --ignore-watch node_modules src/server.ts",
     "test": "vitest --no-watch",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "eslint"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run test",
-      "commit-msg": "npx --no -- git-commit-msg-linter $HUSKY_GIT_PARAMS"
+      "commit-msg": "npm run commitmsg"
     }
   },
   "author": "",
