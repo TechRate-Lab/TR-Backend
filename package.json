@@ -10,6 +10,11 @@
     "test": "vitest",
     "prepare": "husky install"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test"
+    }
+  },
   "author": "",
   "license": "MIT",
   "devDependencies": {
