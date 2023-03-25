@@ -7,7 +7,7 @@
     "build": "tsc",
     "start": "node dist/server.js",
     "dev": "tsnd --transpile-only --watch --respawn --ignore-watch node_modules src/server.ts",
-    "test": "vitest",
+    "test": "vitest --no-watch",
     "prepare": "husky install"
   },
   "husky": {
