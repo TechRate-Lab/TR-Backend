@@ -11,11 +11,6 @@
     "prepare": "husky install",
     "lint": "eslint"
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "npm run commitmsg"
-    }
-  },
   "author": "",
   "license": "MIT",
   "devDependencies": {
