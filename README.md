@@ -2,7 +2,7 @@
   <img src="https://user-images.githubusercontent.com/60453269/220384874-f136b1f9-a852-4774-a600-7fab9d77e8a2.png" alt="Logo" width="300" height="200" />
 </p>
 
-<h1 align="center"> Api TachRate </h1>
+<h1 align="center"> Api TachRate  </h1>
 
 <p align="center">
   <b> Todo backend da aplicação esta nesse repositorio </b></br>
