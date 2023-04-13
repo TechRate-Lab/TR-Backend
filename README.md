@@ -5,7 +5,7 @@
 <h1 align="center"> Api TachRate </h1>
 
 <p align="center">
-  <b> Todo  backend    da aplicação esta nesse repositorio </b></br>
+  <b> Todo  backend  da aplicação esta nesse repositorio </b></br>
   <sub> Uma documentação detalhada de toda a api do repositorio TechRate
   <sub>
 </p>
