@@ -16,6 +16,6 @@ export class User {
     }
 
     constructor(props: UserProps) {
-        this.props = props;
+        this.props = props
     }
 };
