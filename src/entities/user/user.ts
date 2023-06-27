@@ -1,21 +1,11 @@
-export interface UserProps {
-    nome: string;
-    email: string;
-    senha: string;
-}
-
 export class User {
-    private props: UserProps;
+    public id?: number;
+    public name!: string;
+    public email!: string;
+    public password!: string;
+    public confirmPassword!: string;
 
-    get nome() {
-        return this.props.nome;
+    constructor(props?:User, id?:number){
+        Object.assign(this, props)
     }
-
-    get email() {
-        return this.props.email;
-    }
-
-    constructor(props: UserProps) {
-        this.props = props
-    }
-};
+  }

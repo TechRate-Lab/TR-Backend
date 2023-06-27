@@ -1,16 +1,19 @@
-import { expect, test } from 'vitest';
-import { User } from './user';
+import { expect, test } from "vitest";
+import { User } from "./user";
+
+
 
 test("criar usuário", () => {
-    const user = new User({
-        nome: "Fulano",
-        email: "fulanosilva@gmail.com",
-        senha: "teste123"
-    })
+  const user = new User({
+    name: "Fulano",
+    email: "fulanosilva@gmail.com",
+    password: "123",
+    confirmPassword: "123",
+  });
 
-    expect(user).toBeInstanceOf(User);
+  expect(user).toBeInstanceOf(User);
 
-    expect(user.nome).toBe("Fulano");
-    expect(user.email).toBe("fulanosilva@gmail.com");
-    expect(user).not.toHaveProperty('senha');
-})
+  expect(user.name).toBe("Fulano");
+  expect(user.email).toBe("fulanosilva@gmail.com");
+  expect(user.password).toEqual(user.confirmPassword);
+});
