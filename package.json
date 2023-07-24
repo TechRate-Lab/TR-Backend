@@ -31,9 +31,12 @@
     "vitest": "^0.32.2"
   },
   "dependencies": {
+    "@prisma/client": "^5.0.0",
     "@types/bcrypt": "^5.0.0",
     "@types/dotenv": "^8.2.0",
+    "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "prisma": "^5.0.0"
   }
 }
