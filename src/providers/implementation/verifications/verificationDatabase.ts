@@ -1,7 +1,6 @@
 import { User } from "../../../entities/user/user";
 import { IVerificationDatabase } from "../../IVerificationDatabase";
 
-
 export class VerificationDatabase implements IVerificationDatabase {
     constructor() {}
     async userIsValid(user: User):Promise<void> {
