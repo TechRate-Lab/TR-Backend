@@ -1,0 +1,9 @@
+# Rota de cadastro de opinião do usuário
+
+# Variáveis do body que virão:
+
+{ data_registro, email, nome_empresa, ramo_atividade, outro_ramo, modelo_contratacao,
+modelo_trabalho, cargo, stacks_empresa, stacks_outros, avaliacao_geral, ambiente_trabalho, apoio_assistencia_rh, diversidade, plano_carreira, remuneracao, treinamento, beneficios, outros_beneficios, salario, comentarios }
+
+# Verificar se relação email e nome_empresa já se encontram no banco:
+    ## Se sim, retornar o erro
