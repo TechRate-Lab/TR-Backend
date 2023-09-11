@@ -1,5 +1,5 @@
-import { User } from "../../entities/user/user";
-import { IUserRepository } from "../../repositories/IUserRepository";
+import { User } from "../../../entities/user/user";
+import { IUserRepository } from "../../../repositories/IUserRepository";
 import { UserDTO } from "./DTO";
 
 export class CreateUserUseCase {
