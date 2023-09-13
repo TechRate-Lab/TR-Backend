@@ -1,8 +1,3 @@
 node_modules/
 dist/
-<<<<<<< HEAD
 .env
-=======
-.env
-tabela
->>>>>>> 8660d66852fae6f6cec68edbead27d1c850f8c8a
