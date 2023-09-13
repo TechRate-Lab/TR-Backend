@@ -35,7 +35,7 @@ export class CreateEvaluationController {
         
         catch (error: any) {
             if (error.message === "Avaliação já existe") {
-                return response.sendStatus(409)
+                return response.status(409).json({ msg: "Avaliação já existe" });
             } else {                
                 return response
                 .status(400)

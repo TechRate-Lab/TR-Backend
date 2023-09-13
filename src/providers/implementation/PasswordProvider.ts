@@ -11,8 +11,4 @@ export class PasswordProvider implements IBcryptProvider {
         const result = await bcrypt.compare(password, hash)
         return result
     }
-<<<<<<< HEAD
-=======
-    
->>>>>>> 8660d66852fae6f6cec68edbead27d1c850f8c8a
 }
