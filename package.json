@@ -34,7 +34,10 @@
     "@prisma/client": "^5.2.0",
     "@types/bcrypt": "^5.0.0",
     "@types/dotenv": "^8.2.0",
+<<<<<<< HEAD
     "bcrypt": "^5.1.1",
+=======
+>>>>>>> 36a5d35d6d4289d80010bebee284b445a7a5e02f
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "prisma": "^5.2.0"
