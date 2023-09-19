@@ -1,5 +1,5 @@
 export class EvaluationDTO {
-    dataRegistro!: string
+    dataRegistro!: Date
     email!: string
     nomeEmpresa!: string
     ramoAtividade!: string
