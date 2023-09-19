@@ -58,4 +58,14 @@ export class MysqlEvaluationRepository implements IEvaluationRepository {
         
     }       
     
+    async readMyEvaluations(email: string): Promise<Evaluation[]> {
+        const evaluations = await this.prisma.companyEvaluation.findMany({
+            where: {
+                email
+            }
+        })
+        
+        return evaluations
+        
+    }
 }

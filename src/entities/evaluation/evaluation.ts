@@ -1,14 +1,14 @@
 export class Evaluation {
-    dataRegistro!: string
+    dataRegistro!: Date
     email!: string
     nomeEmpresa!: string
     ramoAtividade!: string
-    outroRamo?: string
+    outroRamo?: string | undefined | null
     modeloContratacao!: string
     modeloTrabalho!: string
     cargo!: string
     stacksEmpresa!: string
-    stacksOutros?: string
+    stacksOutros?: string | undefined | null
     avaliacaoGeral!: string
     ambienteTrabalho!: string
     apoioAssistenciaRh!: string
@@ -17,9 +17,9 @@ export class Evaluation {
     remuneracao!: string
     treinamento!: string
     beneficios!: string
-    outrosBeneficios?: string
+    outrosBeneficios?: string | undefined | null
     salario!: number
-    comentarios?: string
+    comentarios?: string | undefined | null
 
     constructor(props:Evaluation){
         Object.assign(this, props)

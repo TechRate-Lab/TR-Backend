@@ -1,5 +1,5 @@
-import { Evaluation } from '../../entities/evaluation/evaluation';
-import { IEvaluationRepository } from './../../repositories/IEvaluationRepository';
+import { Evaluation } from '../../../entities/evaluation/evaluation';
+import { IEvaluationRepository } from '../../../repositories/IEvaluationRepository';
 import { EvaluationDTO } from "./DTO";
 
 export class CreateEvaluationUseCase {

@@ -8,7 +8,7 @@ export class CreateEvaluationController {
         const { dataRegistro, email, nomeEmpresa, ramoAtividade, outroRamo, modeloContratacao, modeloTrabalho, cargo, stacksEmpresa, stacksOutros, avaliacaoGeral, ambienteTrabalho, apoioAssistenciaRh, diversidade, planoCarreira, remuneracao, treinamento, beneficios, outrosBeneficios, salario, comentarios } = request.body
         try {
             await this.useCase.execute({
-                dataRegistro,
+                dataRegistro: new Date,
                 email,
                 nomeEmpresa,
                 ramoAtividade,
@@ -39,7 +39,7 @@ export class CreateEvaluationController {
             } else {                
                 return response
                 .status(400)
-                .json({ msg: `${error.message}` });
+                .json({ msg:`Requisição falhou: error: ${error.message}` });
               }
         }        
 

@@ -1,4 +1,4 @@
-import { MysqlEvaluationRepository } from './../../repositories/implementation/mySqlImplementation/MysqlEvaluationRepository';
+import { MysqlEvaluationRepository } from '../../../repositories/implementation/mySqlImplementation/MysqlEvaluationRepository';
 import { CreateEvaluationController } from "./controller";
 import { CreateEvaluationUseCase } from "./useCase";
 
