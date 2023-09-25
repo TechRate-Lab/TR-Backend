@@ -39,7 +39,7 @@ export class CreateEvaluationController {
             } else {                
                 return response
                 .status(400)
-                .json({ msg:`Requisição falhou: error: ${error.message}` });
+                .json({ msg:"Requisição falhou", error: `${error.message}` });
               }
         }        
 
